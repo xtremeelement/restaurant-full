@@ -16,10 +16,11 @@
     </head>
     <body>
     <section id="app-layout">
-    @include('includes.side-menu')
-    
-    @yield('content')
-  </section>
+      @include('includes.side-menu')
+      <section id="content-section">
+         @yield('content')
+      </section>
+    </section>
  
     </body>
 </html>
