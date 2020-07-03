@@ -6,7 +6,7 @@
         <div class="menu-title">
           Menu
         </div>
-        <ul class="links">
+        <ul class="links">        
           <li>
             <a href="/menu">Menu</a>
           </li>
