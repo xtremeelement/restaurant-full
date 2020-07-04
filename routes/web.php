@@ -35,3 +35,12 @@ Route::get('/about', function () {
 Route::get('/offers', function () {
     return view('pages/offers');
 });
+Route::get('/admin', function () {
+    return view('admin/dashboard');
+});
+Route::get('/admin/register', function () {
+    return view('admin/register');
+});
+Route::get('/admin/login', function () {
+    return view('admin/login');
+});
