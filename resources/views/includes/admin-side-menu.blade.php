@@ -23,13 +23,34 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2" aria-controls="submenu-2"><i class="fa fa-fw fa-rocket"></i>Menu</a>
                     <div id="submenu-2" class="collapse submenu" style="">
-                        <ul class="nav flex-column">
+                        <ul class="nav flex-column">                            
                             <li class="nav-item">
-                                <a class="nav-link" href="/admin/food-categories">Food Categories<span class="badge badge-secondary">New</span></a>
-                            </li>                                       
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">Food Categories</a>
+                                <div id="submenu-1-1" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/admin/food-categories">All Food Categories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/admin/food-categories/create">New Food Category</a>
+                                        </li>                                        
+                                    </ul>
+                                </div>
+                            </li>                                     
                             <li class="nav-item">
-                                <a class="nav-link" href="/admin/food-items">Food Items<span class="badge badge-secondary">New</span></a>
-                            </li>                                       
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2-1" aria-controls="submenu-2-1">Food Items</a>
+                                <div id="submenu-2-1" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/admin/food-items">All Food Items</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/admin/food-items/create">New Food Item</a>
+                                        </li>                                        
+                                    </ul>
+                                </div>
+                            </li>                                     
+                                                                 
                         </ul>
                     </div>
                 </li>                            
