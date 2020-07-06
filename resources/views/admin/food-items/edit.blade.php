@@ -17,7 +17,7 @@
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="/admin" class="breadcrumb-link">Dashboard</a></li>
                                         <li class="breadcrumb-item"><a href="/admin/food-items" class="breadcrumb-link">All Food Items</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">New Food Item</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Edit Food Item</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -35,7 +35,7 @@
                         <!-- ============================================================== -->
                         <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
                             <div class="card">
-                                <h5 class="card-header">Create New Item</h5>
+                                <h5 class="card-header">Edit Item</h5>
                                 <div class="card-body">
                                     <form action="#" id="basicform" data-parsley-validate="">
                                         <div class="form-group">
