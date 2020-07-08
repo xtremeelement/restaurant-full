@@ -43,14 +43,23 @@
                 <h3 class="mb-1">Registrations Form</h3>
                 <p>Please enter your user information.</p>
             </div>
-            <div class="card-body">
-                
+            <div class="card-body">          
+            <div class="form-group">                                             
+                    
+                        <input id="fname" type="text" class="form-control form-control-lg @error('name') is-invalid @enderror" name="fname" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="First Name">
+
+                        @error('fname')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror                    
+                 </div> 
                                            
                  <div class="form-group">                                             
                     
-                        <input id="name" type="text" class="form-control form-control-lg @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Name">
+                        <input id="lname" type="text" class="form-control form-control-lg @error('name') is-invalid @enderror" name="lname" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Last Name">
 
-                        @error('name')
+                        @error('lname')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
                             </span>
