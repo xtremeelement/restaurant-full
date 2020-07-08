@@ -46,7 +46,7 @@
             <div class="card-body">          
             <div class="form-group">                                             
                     
-                        <input id="fname" type="text" class="form-control form-control-lg @error('name') is-invalid @enderror" name="fname" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="First Name">
+                        <input id="fname" type="text" class="form-control form-control-lg @error('fname') is-invalid @enderror" name="fname" value="{{ old('fname') }}" required autocomplete="name" autofocus placeholder="First Name">
 
                         @error('fname')
                             <span class="invalid-feedback" role="alert">
@@ -57,7 +57,7 @@
                                            
                  <div class="form-group">                                             
                     
-                        <input id="lname" type="text" class="form-control form-control-lg @error('name') is-invalid @enderror" name="lname" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Last Name">
+                        <input id="lname" type="text" class="form-control form-control-lg @error('lname') is-invalid @enderror" name="lname" value="{{ old('lname') }}" required autocomplete="name" autofocus placeholder="Last Name">
 
                         @error('lname')
                             <span class="invalid-feedback" role="alert">
