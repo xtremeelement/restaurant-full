@@ -58,14 +58,15 @@ table {
             justify-content: center;
             margin-bottom: 50px;
             img {
-                max-width: 100px;
+                max-width: 150px;
+                border: solid black 1px;
             }
         }
         .menu {
             margin-bottom: 50px;
             .menu-title {
                 text-transform: uppercase;
-                color: #0971ce;
+                color: #6e8281;
                 font-weight: 700;
                 font-size: 1.2rem;
                 border-bottom: 1px solid #e2eaef;
@@ -116,7 +117,7 @@ table {
             }
             .phone-number {
                 a {
-                    color: #0971ce;
+                    color: #6e8281;
                     font-size: 2rem;
                     font-weight: 700;
                     text-decoration: none;
@@ -292,7 +293,7 @@ table {
             // border-right: 1px solid #e9f0f4;
             &:hover {
                 .background {
-                    background: rgb(245, 156, 46);
+                    background: rgb(125, 46, 16);
                     transform: translate3d(0, -200px, 0);
                 }
                 .content {

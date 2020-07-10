@@ -153,12 +153,10 @@ table {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #ed4852;
+  background-image: url("https://images.pexels.com/photos/3649208/pexels-photo-3649208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
   /* Old browsers */
-  /* FF3.6-15 */
-  /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #ed4852 0%, #9c1b24 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   overflow: hidden;
   padding: 100px;
 }
@@ -459,7 +457,8 @@ table {
 }
 
 #app-layout .side-menu .logo img {
-  max-width: 100px;
+  max-width: 150px;
+  border: solid black 1px;
 }
 
 #app-layout .side-menu .menu {
@@ -468,7 +467,7 @@ table {
 
 #app-layout .side-menu .menu .menu-title {
   text-transform: uppercase;
-  color: #0971ce;
+  color: #6e8281;
   font-weight: 700;
   font-size: 1.2rem;
   border-bottom: 1px solid #e2eaef;
@@ -521,7 +520,7 @@ table {
 }
 
 #app-layout .side-menu .location .phone-number a {
-  color: #0971ce;
+  color: #6e8281;
   font-size: 2rem;
   font-weight: 700;
   text-decoration: none;
@@ -681,7 +680,7 @@ table {
 }
 
 #food-preview .food-slider .slide:hover .background {
-  background: #f59c2e;
+  background: #7d2e10;
   transform: translate3d(0, -200px, 0);
 }
 

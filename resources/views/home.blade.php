@@ -5,10 +5,11 @@
 @section('content')
     <section id="information">
     <div class="restaurant-image">
-      <img src="img/top-down.jpg">
+      <img src="https://images.pexels.com/photos/3044/restaurant-love-romantic-dinner.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+      {{-- <img src="img/top-down.jpg"> --}}
     </div>
     <div class="info">
-      <h2>We Started From The Bottom In 1987</h2>
+      <h2>3 Michelin Star Recipient</h2>
       <div class="paragraphs">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquid dolore, error minus ad officia
           fugit iusto repellat, explicabo reiciendis inventore mollitia non, libero perspiciatis dicta eius consequatur
@@ -34,7 +35,7 @@
     </div>
   </section>
   <section id="food-preview">
-    <h2>We have everything you need to kill your hunger</h2>
+    <h2>Latin-Italian Cuisine</h2>
     <div class="button-rounded">View Our Menu</div>
     <div class="container">
       <div class="left-btn">
@@ -49,7 +50,7 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Starters
+                Appetizers
               </div>
               <p class="food-description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
@@ -67,7 +68,7 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Burgers
+                Surf
               </div>
               <p class="food-description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
@@ -85,7 +86,7 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Entrees
+                Turf
               </div>
               <p class="food-description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate

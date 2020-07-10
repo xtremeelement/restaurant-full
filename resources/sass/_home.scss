@@ -5,24 +5,29 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #ed4852; /* Old browsers */
-    background: -moz-radial-gradient(
-        center,
-        ellipse cover,
-        #ed4852 0%,
-        #9c1b24 100%
-    ); /* FF3.6-15 */
-    background: -webkit-radial-gradient(
-        center,
-        ellipse cover,
-        #ed4852 0%,
-        #9c1b24 100%
-    ); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(
-        ellipse at center,
-        #ed4852 0%,
-        #9c1b24 100%
-    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // background: #ed4852; /* Old browsers */
+    // background-image: url("https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://images.pexels.com/photos/3649208/pexels-photo-3649208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    /* Old browsers */
+    // background: -moz-radial-gradient(
+    //     center,
+    //     ellipse cover,
+    //     #ed4852 0%,
+    //     #9c1b24 100%
+    // ); /* FF3.6-15 */
+    // background: -webkit-radial-gradient(
+    //     center,
+    //     ellipse cover,
+    //     #ed4852 0%,
+    //     #9c1b24 100%
+    // ); /* Chrome10-25,Safari5.1-6 */
+    // background: radial-gradient(
+    //     ellipse at center,
+    //     #ed4852 0%,
+    //     #9c1b24 100%
+    // ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     overflow: hidden;
     padding: 100px;
     .status {

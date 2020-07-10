@@ -20,9 +20,10 @@
     <section id="app-layout">
     @include('includes.side-menu')
     <div class="welcome-jumbo">
-      <div class="status">NEW</div>
-      <h1>Billy Burger</h1>
-      <img src="https://i.ya-webdesign.com/images/hamburger-and-fries-png-4.png" class="burger-fries">
+      {{-- <div class="status">NEW</div> --}}
+      {{-- <h1>Brick Furnace</h1> --}}
+      {{-- <img src="https://images.pexels.com/photos/3649208/pexels-photo-3649208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="burger-fries"> --}}
+      {{-- <img src="https://i.ya-webdesign.com/images/hamburger-and-fries-png-4.png" class="burger-fries"> --}}
     </div>
   </section>
   @yield('content')

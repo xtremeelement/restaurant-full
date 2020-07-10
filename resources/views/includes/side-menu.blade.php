@@ -1,6 +1,7 @@
 <div class="side-menu">
       <a href="/" class="logo">
-        <img src="https://webstockreview.net/images/clipart-restaurant-restaurant-logo-5.png">
+        <img src="https://www.dennisgroup.com/wp-content/uploads/2018/10/Stonewall-Kitchen-logo-copy-1.jpg">
+        {{-- <img src="https://webstockreview.net/images/clipart-restaurant-restaurant-logo-5.png"> --}}
       </a>
       <div class="menu">
         <div class="menu-title">
