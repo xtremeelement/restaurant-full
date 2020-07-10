@@ -5,7 +5,7 @@
       </a>
       <div class="menu">
         <div class="menu-title">
-          Menu
+          <a href="/" >Home</a>
         </div>
         <ul class="links">        
           <li>

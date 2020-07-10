@@ -475,6 +475,11 @@ table {
   margin-bottom: 20px;
 }
 
+#app-layout .side-menu .menu a {
+  text-decoration: none;
+  color: #6e8281;
+}
+
 #app-layout .side-menu .menu .links li a {
   font-size: 1.1rem;
   color: black;
@@ -529,12 +534,9 @@ table {
 #app-layout #content-section {
   transform: translate3d(300px, 0, 0);
   max-width: calc(100vw - 300px);
-  background: #ed4852;
-  /* Old browsers */
-  /* FF3.6-15 */
-  /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #ed4852 0%, #9c1b24 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-image: url("https://images.pexels.com/photos/66639/pexels-photo-66639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #information {
