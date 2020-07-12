@@ -18,7 +18,7 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Starters
+                Appetizers
               </div>
               <p class="food-description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
@@ -36,7 +36,7 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Burgers
+                Entrees
               </div>
               <p class="food-description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
@@ -54,7 +54,7 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Entrees
+                Sides
               </div>
               <p class="food-description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
@@ -72,7 +72,7 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Sides
+                Desserts
               </div>
               <p class="food-description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
@@ -90,7 +90,7 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Deserts
+                Wines
               </div>
               <p class="food-description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
